@@ -1,0 +1,21 @@
+.welcome{
+    &__content{
+        text-align: center;
+    }
+    &__title{
+        font-size: 3rem;
+        @media(max-width: 600px){
+            font-size: 2rem;
+        }
+    }
+    &__subtitle{
+        font-size: 1.5rem;
+        font-weight: 100;
+        @media(max-width: 600px){
+            font-size: 1.2rem;
+        }
+    }
+    &__button{
+        margin: 3em 0;
+    }
+}
